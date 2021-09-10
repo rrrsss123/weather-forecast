@@ -1,0 +1,30 @@
+{
+  "name": "Weather API",
+  "version": "1.1.0",
+  "description": "Weather API browser",
+  "author": "Jessica",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "start": "nodemon server/index.js",
+    "react-dev": "webpack --config ./webpack.config.js --mode development -w"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.10",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.10",
+    "@babel/preset-react": "^7.12.13",
+    "babel-loader": "^8.2.2",
+    "nodemon": "^2.0.7",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "react-icons": "^4.2.0"
+  }
+}
